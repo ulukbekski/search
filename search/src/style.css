@@ -18,12 +18,18 @@ img{
     text-align: center;
     font-weight: bold;
 }
-input{
+button, input{
 
     padding: 15px;
     background-color: rgba(0, 128, 0, 0.202);
     width: 50%;
     border: 1px solid green;
     display: block;
-    margin: auto;
+    margin: 10px auto;
+    
+}
+
+button:active{
+    background-color: green;
+    color: white;
 }
